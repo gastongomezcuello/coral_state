@@ -1,11 +1,64 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coral State</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-    
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Welcome to Coral State</h1>
+            <p>Your home, your community.</p>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Amenities</a></li>
+            <li><a href="#">Announcements</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <div class="container">
+            <section class="intro">
+                <h2>About Coral State</h2>
+                <p>Coral State offers a modern, comfortable living experience with amenities and community spaces designed for convenience and relaxation. Stay up to date with building announcements, book amenities, and reach out with any questions.</p>
+            </section>
+
+            <section class="featured">
+                <h2>Featured Amenities</h2>
+                <ul>
+                    <li>Swimming Pool</li>
+                    <li>Fitness Center</li>
+                    <li>Community Hall</li>
+                    <li>24/7 Security</li>
+                </ul>
+            </section>
+
+            <section class="announcements">
+                <h2>Latest Announcements</h2>
+                <p>Stay tuned for updates about community events, maintenance schedules, and more!</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Coral State. All Rights Reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
 </body>
 </html>
